@@ -1,8 +1,16 @@
-import random
-import requests
-import json
-import time
-import urllib.parse
+try:
+	import random
+	import requests
+	import json
+	import time
+	import urllib.parse
+except:
+	import os
+	os.system("pip install urllib time json requests random")
+	import random
+	import requests
+	import json
+	import time
 proxy = {
     "http": "http://0kozAFxxmlLZ5m6:aPuSkAmlDQeYRIi@194.135.30.237:45914",
     "https": "http://0kozAFxxmlLZ5m6:aPuSkAmlDQeYRIi@194.135.30.237:45914"
